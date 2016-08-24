@@ -13,6 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+language: ruby
+script: "bundle exec jekyll build"
+
 title: Your awesome title
 email: zhangxinxin0224@sina.com
 description: > # this means to ignore newlines until "baseurl:"
